@@ -1,11 +1,19 @@
 import React from 'react'
-import Head from 'next/head'
+import GlobalStyles from '../components/styles/Global'
 
 
-export default function Home() {
-  return (
-    <div>
-        <h1>olá</h1>
-    </div>
+import {Header, Text} from '../components' 
+
+export default function Home(){
+  return(
+    <>
+      <GlobalStyles/>
+      <Header>
+        
+      </Header>
+      <Text>
+        <h1>ola</h1>
+      </Text>
+    </>
   )
 }
