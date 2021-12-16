@@ -2,7 +2,7 @@ import React from 'react'
 import GlobalStyles from '../components/styles/Global'
 
 
-import {Header, Text} from '../components' 
+import {Header, Footer} from '../components' 
 
 export default function Home(){
   return(
@@ -11,6 +11,9 @@ export default function Home(){
       <Header>
         
       </Header>
+      <Footer>
+        
+      </Footer>
      
     </>
   )
