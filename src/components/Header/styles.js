@@ -23,6 +23,7 @@ export const Navegador = styled.a`
 
   &:hover{
     color:#BADC41;
+    transition:0.3s;
   }
 `
 export const Cabeçalho = styled.header`
@@ -42,4 +43,9 @@ export const Botao = styled.button`
   color: #FFFFFF;
   cursor:pointer;
   font-size:1.8rem;
+
+  &:hover{
+    background:#5A880E;
+    transition:0.3s;
+  }
 `
